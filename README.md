@@ -24,10 +24,14 @@ Built with **LangGraph**, **LangChain**, and **GPT-4o-mini**.
 git clone https://github.com/your-username/financial-analyst-agent
 cd financial-analyst-agent
 pip install -r requirements.txt
-python agent.py
+cp config.example.json config.json
 ```
 
-On first run you'll be prompted for your API keys. After that, just run `python agent.py` and start asking questions.
+Open `config.json` and add your API keys, then run:
+
+```bash
+python agent.py
+```
 
 **API keys needed (both have free tiers):**
 - OpenAI: https://platform.openai.com
